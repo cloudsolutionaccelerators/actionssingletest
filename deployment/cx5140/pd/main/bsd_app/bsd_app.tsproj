@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.6">
+	<Project ProjectGUID="{72D6EE4F-44F3-49E7-94FC-B68ED972C45F}" Target64Bit="true" ShowHideConfigurations="#x6">
+		<System>
+			<Tasks>
+				<Task Id="2" Priority="1" CycleTime="300000" AmsPort="350" AdtTasks="true">
+					<Name>task30ms</Name>
+				</Task>
+				<Task Id="3" Priority="2" CycleTime="600000" AmsPort="351" AdtTasks="true">
+					<Name>task60ms</Name>
+				</Task>
+				<Task Id="4" Priority="3" CycleTime="1200000" AmsPort="352" AdtTasks="true">
+					<Name>task120ms</Name>
+				</Task>
+			</Tasks>
+		</System>
+	</Project>
+</TcSmProject>

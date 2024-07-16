@@ -1,0 +1,21 @@
+# Ignore build files
+build/
+*.o
+*.a
+
+# Ignore logs
+*.log
+
+# Ignore IDE files
+*.project
+*.settings
+.vscode/
+
+# Ignore CMake files
+Makefile
+CMakeCache.txt
+CMakeFiles/
+__pycache__/
+.pytest_cache/
+cmake_install.cmake
+
